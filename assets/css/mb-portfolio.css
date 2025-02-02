@@ -77,6 +77,11 @@ h4 {
   margin-left: 15px;	
 }
 
+.header-nav {
+  margin-top: -35px;
+  text-align: right;
+}
+
 /* Lines */
 
 .case-study-line {
