@@ -65,6 +65,18 @@ h4 {
   color: #608BAA;
 }
 
+/* Header links */
+.header-link-active {
+  color: #03045E;
+  border-bottom: 5px solid #03045E;
+}
+
+.header-link {
+  color: #909090;
+  font-weight: 300;
+  margin-left: 15px;	
+}
+
 /* Lines */
 
 .case-study-line {
