@@ -27,28 +27,28 @@ body {
 /* Headings */
 
 h1 {
-  font-family: 'Jost', Arial, sans-serif;
+  font-family: 'Jost', 'Roboto', Arial, sans-serif;
   font-weight: 500;
   font-size: 45px;
   color: #03045E;
 }
 
 h2 {
-  font-family: 'Jost', Arial, sans-serif;
+  font-family: 'Jost', 'Roboto', Arial, sans-serif;
   font-weight: 500;
   font-size: 30px;
   color: #03045E;
 }
 
 h3 {
-  font-family: 'Jost', Arial, sans-serif; 
+  font-family: 'Jost', 'Roboto', Arial, sans-serif; 
   font-weight: 400;
   font-size: 23px;
   color: #608BAA;
 }
 
 h4 {
-  font-family: 'Roboto', Arial, san-serif;
+  font-family: 'Roboto', 'Roboto', Arial, san-serif;
   color: #D6634C;
   font-size: 20px;
   font-weight: 700;
