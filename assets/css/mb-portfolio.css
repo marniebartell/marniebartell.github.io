@@ -26,9 +26,9 @@ body {
 
 h1 {
   font-family: Jost, Roboto, Arial, sans-serif !important; 
-  font-weight: 500;
-  font-size: 45px;
-  color: #03045E;
+  font-weight: 500 !important;
+  font-size: 45px !important;
+  color: #03045E !important;
 }
 
 h2 {
