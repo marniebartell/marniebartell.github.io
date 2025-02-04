@@ -99,3 +99,12 @@ p {
   border-top: 1px solid #909090;
   margin-bottom: 45px;
 }
+
+/* Misc */
+.storyboard-thumb {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  max-width: 300px;
+	
+}
