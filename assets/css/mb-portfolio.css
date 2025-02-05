@@ -23,11 +23,26 @@ body {
 /* Headings */
 
 h1 {
-  font-family: Jost, Roboto, Arial, sans-serif !important; 
-  font-weight: 500 !important;
-  font-size: 45px !important;
-  color: #03045E !important;
+  font-family: Jost, Roboto, Arial, sans-serif; 
+  font-weight: 500;
+  font-size: 45px;
+  color: #03045E;
 }
+
+.h1-title {
+  font-family: jost;
+  font-weight: 500;
+  font-size: 45px;
+  color: #03045E;
+}
+
+@media (max-width: 500px) {
+ .h1-title {
+    font-size: 28px;
+    font-weight: 600;
+ }
+}
+
 
 h2 {
   font-family: Jost, Roboto, Arial, sans-serif !important; ;
@@ -43,6 +58,12 @@ h3 {
   color: #608BAA;
 }
 
+@media (max-width: 500px) {
+ h3 {
+    font-size: 18px;
+ }
+}
+
 h4 {
   font-family: Roboto, Arial, san-serif;
   color: #D6634C;
@@ -52,6 +73,12 @@ h4 {
 
 .h3-subtitle {
   margin-top: -18px;
+}
+
+@media (max-width: 500px) {
+ .h3-subtitle {
+  margin-top: -10px;
+ }
 }
 
 .h-navy {
@@ -89,8 +116,15 @@ p {
 }
 
 .header-nav {
-  margin-top: -35px;
+  margin-top: 35px;
   text-align: right;
+}
+
+@media (max-width: 500px) {
+ .header-nav {
+  margin-top: -10px;
+  text-align: left;
+ }
 }
 
 /* Lines */
