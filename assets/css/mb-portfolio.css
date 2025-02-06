@@ -37,11 +37,10 @@ h1 {
 
 @media only screen and (max-width: 500px) {
   .h1-title {
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 600;
   }
 }
-
 
 h2 {
   font-family: Jost, Roboto, Arial, sans-serif !important; ;
@@ -121,8 +120,10 @@ p {
 
 @media only screen and (max-width: 500px) {
   .header-nav {
-    margin-top: -10px;
-    text-align: left;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
   }
 }
 
