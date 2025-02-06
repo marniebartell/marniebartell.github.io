@@ -159,6 +159,6 @@ p {
 @media only screen and (max-width: 500px) {
   .logo {
    margin-right: 10px;
-   width: 
+   width: 100px;
   }
 }
