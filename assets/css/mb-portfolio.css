@@ -58,7 +58,18 @@ h3 {
 
 @media only screen and (max-width: 500px) {
  h3 {
-   font-size: 18px;
+   font-size: 20px;
+ }
+}
+
+.h3-subtitle {
+  margin-top: -18px;
+  font-weight: 400
+}
+
+@media only screen and (max-width: 500px) {
+ .h3-subtitle {
+   margin-top: -10px;
  }
 }
 
@@ -69,13 +80,12 @@ h4 {
   font-weight: 700;
 }
 
-.h3-subtitle {
-  margin-top: -18px;
-}
-
 @media only screen and (max-width: 500px) {
- .h3-subtitle {
-   margin-top: -10px;
+ h4 {
+   font-family: Roboto, Arial, san-serif;
+   color: #D6634C;
+   font-size: 18px;
+   font-weight: 700;
  }
 }
 
