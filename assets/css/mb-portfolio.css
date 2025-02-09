@@ -115,6 +115,7 @@ p {
 .header-link-active {
   color: #03045E;
   border-bottom: 5px solid #03045E;
+  margin-left: 15px;
 }
 
 .header-link {
