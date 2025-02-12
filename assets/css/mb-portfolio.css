@@ -13,6 +13,15 @@ body {
   width: 100%;
 }
 
+a {
+  color: #0081AB;	
+}
+
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+
 .img-responsive {
     display: block;
     width: 100%;
@@ -122,6 +131,10 @@ p {
   color: #909090;
   font-weight: 300;
   margin-left: 15px;	
+}
+
+.header-link:hover {
+  color: #333333;  
 }
 
 .header-nav {
