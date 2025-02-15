@@ -151,7 +151,6 @@ p {
 }
 
 .header-nav {
- // margin-top: 35px;
   text-align: right;
   margin-top: -53px;
 }
@@ -161,11 +160,10 @@ p {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   .header-nav {
- //   margin-top: 30px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
   }
 }
