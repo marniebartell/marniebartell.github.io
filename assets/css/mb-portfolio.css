@@ -162,7 +162,7 @@ p {
 
 @media only screen and (max-width: 768px) {
   .header-nav {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 0px;
     text-align: center;
   }
