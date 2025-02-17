@@ -187,6 +187,11 @@ p {
   margin-right: auto;
 }
 
+.shadow-80 {
+   max-width: 80%;
+   box-shadow: 5px 5px 5px #CCCCCC;
+}
+
 /* Misc */
 .storyboard-thumb {
   display: block;
