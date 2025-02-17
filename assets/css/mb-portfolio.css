@@ -103,7 +103,7 @@ h4 {
   font-family: Roboto, Arial, san-serif;
   color: #D6634C;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 500px) {
@@ -111,7 +111,7 @@ h4 {
    font-family: Roboto, Arial, san-serif;
    color: #D6634C;
    font-size: 18px;
-   font-weight: 700;
+   font-weight: 500;
  }
 }
 
@@ -178,6 +178,13 @@ p {
 .case-study-line {
   border-top: 1px solid #909090;
   margin-bottom: 45px;
+}
+
+/* Images */
+.img-centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Misc */
