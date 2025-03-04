@@ -228,14 +228,16 @@ p {
   }
 }
 
-.img-hover {
-  overflow: hidden; 
-}
+@media only screen and (min-width: 992px) {
+  .img-hover {
+    overflow: hidden; 
+  }
 
-.img-hover img {
-  transition: transform .5s ease;
-}
+  .img-hover img {
+    transition: transform .5s ease;
+  }
 
-.img-hover:hover img {
-  transform: scale(1.2);
+  .img-hover:hover img {
+    transform: scale(1.2);
+  }
 }
