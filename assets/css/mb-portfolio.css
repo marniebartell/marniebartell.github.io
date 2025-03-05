@@ -228,13 +228,13 @@ p {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .img-hover {
     overflow: hidden; 
   }
 
   .img-hover img {
-    transition: transform .5s ease;
+    transition: transform .8s ease;
   }
 
   .img-hover:hover img {
