@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/mb-portfolio.css">
+<script src="assets/js/back-to-top.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/9fca9ad733.js"></script>
 </head>
@@ -163,26 +164,5 @@
  </div>  
 <hr class="case-study-line">
 </div>
-<script>
-// Back to top button
-let backbutton = document.getElementById("back-to-top");
-
-// Show button when scrolling 350px down
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-    backbutton.style.display = "block";
-  } else {
-    backbutton.style.display = "none";
-  }
-}
-
-// Scroll to the top when button clicked
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
 </body>
 </html>
