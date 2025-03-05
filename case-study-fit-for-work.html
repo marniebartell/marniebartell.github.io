@@ -167,11 +167,11 @@
 // Back to top button
 let backbutton = document.getElementById("back-to-top");
 
-// Show button when scrolling 30px down
+// Show button when scrolling 350px down
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+  if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
     backbutton.style.display = "block";
   } else {
     backbutton.style.display = "none";
