@@ -164,21 +164,21 @@
 <hr class="case-study-line">
 </div>
 <script>
-// Get the button
+// Back to top button
 let backbutton = document.getElementById("back-to-top");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// Show button when scrolling 30px down
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
     backbutton.style.display = "block";
   } else {
     backbutton.style.display = "none";
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// Scroll to the top when button clicked
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
