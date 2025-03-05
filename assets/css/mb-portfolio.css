@@ -249,13 +249,13 @@ p {
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  font-size: 18px;
+  font-size: 15px;
   border: none;
   outline: none;
   background-color: #608BAA;
   color: white;
   cursor: pointer;
-  padding: 25px 15px;
+  padding: 12px 15px;
   border-radius: 4px;
 }
 
