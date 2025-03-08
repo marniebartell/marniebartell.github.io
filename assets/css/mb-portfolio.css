@@ -310,3 +310,7 @@ p {
   background-color: #FFFFFF;
   color: lightgrey;
 }
+
+.topnav-line {
+  border-top: 1px solid #CCCCCC;
+}
