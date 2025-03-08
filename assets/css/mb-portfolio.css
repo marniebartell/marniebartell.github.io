@@ -268,6 +268,7 @@ p {
 
 /* Mobile menu */
 
+@media only screen and (max-width: 992px) {
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
@@ -313,4 +314,5 @@ p {
 
 .topnav-line {
   border-top: 1px solid #CCCCCC;
+}
 }
