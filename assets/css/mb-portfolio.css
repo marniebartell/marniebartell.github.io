@@ -341,3 +341,7 @@ p {
 .topnav-line {
   border-top: 1px solid #CCCCCC;
 }
+
+.topnav-indent {
+  margin-left: 20px;
+}
