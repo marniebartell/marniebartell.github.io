@@ -298,7 +298,7 @@ p {
 /* Mobile menu */
 
 .topnav {
-  overflow: hidden;
+//  overflow: hidden;
   background-color: #ffffff;
   position: relative;
 }
