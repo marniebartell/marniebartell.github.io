@@ -14,11 +14,57 @@
 <link rel="stylesheet" href="assets/css/mb-portfolio.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/9fca9ad733.js"></script>
+<style>
+.dropbtn {
+  color: navy;
+  padding: 16px;
+  font-size: 16px;
+  border-bottom: 5px solid navy;
+}
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 260px;
+  -webkit-box-shadow: 0px 3px 10px 5px rgba(204,204,204,1);
+  -moz-box-shadow: 0px 3px 10px 5px rgba(204,204,204,1);
+  box-shadow: 0px 3px 10px 5px rgba(204,204,204,1);
+  z-index: 200000;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-top: 3px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #FFFFFF;
+}
+</style>
 
 </head>
 <body>
 <button onclick="topFunction()" id="back-to-top" title="Go to top"><i class="fa-solid fa-arrow-up fa-xl" style="color: #FFFFFF;"></i></button>
+
+
+
 <!--Portfolio-->
 <div class="container">
 <!-- Header -->
@@ -28,17 +74,46 @@
       <a href="index.html" class="active"><img src="assets/images/mountain-m-logo.png" class="logo">
 	  <h1 class="h1-title">Marnie Bartell</h1>
       <h3 class="h3-subtitle">User Experience (UX) Design</h3></a>
-      <h3 class="header-nav d-none d-lg-block"><a href="index.html"><span class="header-link-active">Portfolio</span></a> <a href="about.html"><span class="header-link">About</span></a> <a href="contact.html"><span class="header-link">Contact</span></a></h3>
+      
+      
+
+
+      
+      <h3 class="header-nav d-none d-lg-block">
+      
+      
+      
+      
+      
+      <span class="dropdown header-nav">
+<a href="index.html"><div class="header-link-active">Portfolio</a>
+</div>
+  <div class="dropdown-content">
+       <a href="case-study-family-doctor.html" class="topnav-line" style="font-size: 18px;">Family doctor check-in</a>
+       <a href="case-study-fit-for-work.html" class="topnav-line" style="font-size: 18px;">Fit for Work</a>
+       <a href="case-study-virtual-health.html" class="topnav-line" style="font-size: 18px;">Virtual health</a>
+       <a href="case-study-custom-service-listings.html" class="topnav-line" style="font-size: 18px;">Health services listings</a>
+       <a href="case-study-ccfd.html" class="topnav-line" style="font-size: 18px;">Continuing Care Facility Directory</a>
+       <a href="case-study-translated-resources.html" class="topnav-line" style="font-size: 18px;">Translated resources</a>
+  </div>
+</span>
+      
+      
+      
+      
+      
+      
+      <a href="about.html"><span class="header-link">About</span></a> <a href="contact.html"><span class="header-link">Contact</span></a></h3>
      <!-- Top Navigation Menu -->
      <div class="d-block d-lg-none">
      <div id="menuLinks" style="float: center;">
        <a href="index.html" >Portfolio</a>
-       <a href="case-study-family-doctor.html" class="topnav-line topnav-indent">Family doctor check-in</a>
-       <a href="case-study-fit-for-work.html" class="topnav-line topnav-indent">Fit for Work</a>
-       <a href="case-study-virtual-health.html" class="topnav-line topnav-indent">Virtual health</a>
-       <a href="case-study-custom-service-listings.html" class="topnav-line topnav-indent">Health services listings</a>
-       <a href="case-study-ccfd.html" class="topnav-line topnav-indent">Continuing Care Facility Directory</a>
-       <a href="case-study-translated-resources.html" class="topnav-line topnav-indent">Translated resources</a>
+       <a href="case-study-family-doctor.html" class="topnav-line"><span class="topnav-indent">Family doctor check-in</span></a>
+       <a href="case-study-fit-for-work.html" class="topnav-line"><span class="topnav-indent">Fit for Work</span></a>
+       <a href="case-study-virtual-health.html" class="topnav-line"><span class="topnav-indent">Virtual health</span></a>
+       <a href="case-study-custom-service-listings.html" class="topnav-line"><span class="topnav-indent">Health services listings</span></a>
+       <a href="case-study-ccfd.html" class="topnav-line"><span class="topnav-indent">Continuing Care Facility Directory</span></a>
+       <a href="case-study-translated-resources.html" class="topnav-line"><span class="topnav-indent">Translated resources</span></a>
        <a href="about.html" class="topnav-line">About</a>
        <a href="contact.html" class="topnav-line">Contact</a>
      </div>
