@@ -288,7 +288,13 @@ p {
   padding: 16px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;
+  display: inline;
+}
+
+@media only screen and (max-width: 992px) {
+  .topnav a {
+    display: block;
+  }
 }
 
 .topnav a.icon {
