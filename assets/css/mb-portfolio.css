@@ -268,12 +268,10 @@ p {
 
 /* Mobile menu */
 
-@media only screen and (max-width: 992px) {
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
   position: relative;
-
 }
 
 .topnav #menuLinks {
@@ -291,7 +289,6 @@ p {
   text-decoration: none;
   font-size: 17px;
   display: block;
-
 }
 
 .topnav a.icon {
@@ -314,5 +311,4 @@ p {
 
 .topnav-line {
   border-top: 1px solid #CCCCCC;
-}
 }
