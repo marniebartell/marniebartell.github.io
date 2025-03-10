@@ -336,7 +336,7 @@ p {
 
 .topnav a:hover {
   background-color: #FFFFFF;
-  color: #03045E;
+  color: #03045E !important;
 }
 
 .active {
