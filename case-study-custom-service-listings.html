@@ -19,14 +19,46 @@
 <!--Portfolio-->
 <div class="container">
 <!-- Header -->
+<div class="topnav">
   <div class="row sticky-header">
     <div class="col-md-12">
-      <a href="index.html"><img src="assets/images/mountain-m-logo.png" class="logo">
+      <a href="index.html" class="active"><img src="assets/images/mountain-m-logo.png" class="logo">
 	  <h1 class="h1-title">Marnie Bartell</h1>
       <h3 class="h3-subtitle">User Experience (UX) Design</h3></a>
-      <h3 class="header-nav"><a href="index.html"><span class="header-link-active">Portfolio</span></a> <a href="about.html"><span class="header-link">About</span></a> <a href="contact.html"><span class="header-link">Contact</span></a></h3>
-    </div>
+      <h3 class="header-nav d-none d-lg-block">
+      <span class="dropdown header-nav">
+      <a href="index.html">
+	  <div class="header-link-active">Portfolio</div></a>
+  <div class="dropdown-content">
+       <a href="case-study-family-doctor.html" class="header-style">Family doctor check-in</a>
+       <a href="case-study-fit-for-work.html" class="topnav-line header-style">Fit for Work</a>
+       <a href="case-study-virtual-health.html" class="topnav-line header-style">Virtual health</a>
+       <a href="case-study-custom-service-listings.html" class="topnav-line header-style">Health services listings</a>
+       <a href="case-study-ccfd.html" class="topnav-line header-style">Continuing Care Facility Directory</a>
+       <a href="case-study-translated-resources.html" class="topnav-line header-style">Translated resources</a>
   </div>
+</span>
+      <a href="about.html"><span class="header-link">About</span></a> <a href="contact.html"><span class="header-link">Contact</span></a></h3>
+     <!-- Top Navigation Menu - Mobile -->
+     <div class="d-block d-lg-none">
+     <div id="menuLinks" style="float: center;">
+       <a href="index.html" >Portfolio</a>
+       <a href="case-study-family-doctor.html" class="topnav-line"><span class="topnav-indent">Family doctor check-in</span></a>
+       <a href="case-study-fit-for-work.html" class="topnav-line"><span class="topnav-indent">Fit for Work</span></a>
+       <a href="case-study-virtual-health.html" class="topnav-line"><span class="topnav-indent">Virtual health</span></a>
+       <a href="case-study-custom-service-listings.html" class="topnav-line"><span class="topnav-indent">Health services listings</span></a>
+       <a href="case-study-ccfd.html" class="topnav-line"><span class="topnav-indent">Continuing Care Facility Directory</span></a>
+       <a href="case-study-translated-resources.html" class="topnav-line"><span class="topnav-indent">Translated resources</span></a>
+       <a href="about.html" class="topnav-line">About</a>
+       <a href="contact.html" class="topnav-line">Contact</a>
+     </div>
+     <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+       <i class="fa fa-bars" style="font-size: 23px; padding-top: 12px;"></i>
+     </a>
+     </div> 
+   </div>
+  </div>
+</div>
 <!-- Custom service listings -->
 <h2 class="mt-5 mb-3">Health service listings</h2>
 <h3 class="h3-subtitle h-navy mb-4">Service functionality upgrade</h3>
@@ -106,6 +138,7 @@
  </div> 
 <hr class="case-study-line">
 <script src="assets/js/back-to-top.js"></script>
+<script src="assets/js/drop-down-menu.js"></script>
 </div>
 </body>
 </html>
