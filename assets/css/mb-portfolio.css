@@ -179,6 +179,11 @@ p {
   margin-left: 15px;	
 }
 
+.header-style {
+  color: #608BAA;
+  font-size: 17px;	
+}
+
 .header-link:hover {
   color: #333333;  
 }
@@ -187,6 +192,7 @@ p {
   text-align: right;
   margin-top: -53px;
 }
+
 @media only screen and (max-width: 991px) {
   .header-nav {
     margin-top: 30px;
@@ -357,6 +363,7 @@ p {
 .topnav-indent {
   margin-left: 20px;
 }
+
 
 /* Drop-down menu */
 
