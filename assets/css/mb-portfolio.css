@@ -179,11 +179,6 @@ p {
   margin-left: 15px;	
 }
 
-.header-style {
-  color: #608BAA;
-  font-size: 17px;	
-}
-
 .header-link:hover {
   color: #333333;  
 }
@@ -364,6 +359,10 @@ p {
   margin-left: 20px;
 }
 
+.header-style {
+  color: #608BAA;
+  font-size: 17px;	
+}
 
 /* Drop-down menu */
 
