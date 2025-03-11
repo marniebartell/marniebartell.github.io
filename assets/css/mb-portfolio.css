@@ -32,7 +32,7 @@ a:hover {
 
 .sticky-header {
   top: 0;
-  position: sticky;
+  position: sticky !important;
   background-color: #FFFFFF;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -306,7 +306,7 @@ p {
 
 .topnav {
   background-color: #ffffff;
-  position: relative;
+//  position: relative;
 }
 
 .topnav #menuLinks {
