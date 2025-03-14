@@ -41,6 +41,7 @@ a:hover {
 @media only screen and (max-width: 991px) {
   .sticky-header {
     margin-bottom: 30px;
+	padding-bottom: 0px;
   }
 }
 
