@@ -42,6 +42,7 @@ a:hover {
   .sticky-header {
     margin-bottom: 30px;
 	padding-bottom: 0px;
+	padding-top: 10px;
   }
 }
 
@@ -198,6 +199,18 @@ p {
     margin-top: 25px;
     margin-bottom: 0px;
     text-align: center;
+  }
+}
+
+.case-studies {
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 991px) {
+  .case-studies {
+    margin-top: 20px;
   }
 }
 
