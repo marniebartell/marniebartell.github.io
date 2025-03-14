@@ -1,12 +1,11 @@
-/* Container and body... */
-
+/* Container and body */
 .container, 
 .container-lg, 
 .container-md, 
 .container-sm, 
 .container-xl {
-    max-width: 1320px !important;
- }
+  max-width: 1320px !important;
+}
 
 body {
   height: 100vh;
@@ -29,7 +28,6 @@ a:hover {
 }
 
 /* Headings */
-
 .sticky-header {
   top: 0;
   position: sticky !important;
@@ -202,10 +200,7 @@ p {
   }
 }
 
-
-
 /* Lines */
-
 .case-study-line {
   border-top: 1px solid #909090;
   margin-bottom: 45px;
@@ -224,7 +219,9 @@ p {
 }
 
 .img-border {
-  border: 1px solid #CCCCCC;	
+  border-radius: 7px;
+  border: 1px solid #CCCCCC;
+  overflow: hidden;  
 }
 
 .home-block {
@@ -270,7 +267,6 @@ p {
   }
 }
 
-
 @media only screen and (min-width: 768px) {
   .img-hover {
     overflow: hidden; 
@@ -307,7 +303,6 @@ p {
 }
 
 /* Mobile menu */
-
 .topnav {
   background-color: #ffffff;
 //  position: relative;
@@ -369,7 +364,6 @@ p {
 }
 
 /* Drop-down menu */
-
 .dropbtn {
   color: #03045E;
   padding: 16px;
