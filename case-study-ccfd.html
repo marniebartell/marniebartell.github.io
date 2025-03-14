@@ -12,23 +12,102 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/mb-portfolio.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/9fca9ad733.js"></script>
 </head>
 <body>
+<button onclick="topFunction()" id="back-to-top" title="Go to top"><i class="fa-solid fa-arrow-up fa-xl" style="color: #FFFFFF;"></i></button>
 <!--Portfolio-->
 <div class="container">
 <!-- Header -->
-  <div class="row sticky-header">
+<div class="topnav sticky-header">
+  <div class="row">
     <div class="col-md-12">
-      <a href="index.html"><img src="assets/images/mountain-m-logo.png" class="logo">
+      <a href="index.html" class="active"><img src="assets/images/mountain-m-logo.png" class="logo">
 	  <h1 class="h1-title">Marnie Bartell</h1>
       <h3 class="h3-subtitle">User Experience (UX) Design</h3></a>
-      <h3 class="header-nav"><a href="index.html"><span class="header-link-active">Portfolio</span></a> <a href="about.html"><span class="header-link">About</span></a> <a href="contact.html"><span class="header-link">Contact</span></a></h3>
-    </div>
+      <h3 class="header-nav d-none d-lg-block">
+      <span class="dropdown header-nav">
+      <a href="index.html">
+	  <div class="header-link-active">Portfolio</div></a>
+  <div class="dropdown-content">
+       <a href="case-study-family-doctor.html" class="header-style">Family doctor check-in</a>
+       <a href="case-study-fit-for-work.html" class="topnav-line header-style">Fit for Work</a>
+       <a href="case-study-virtual-health.html" class="topnav-line header-style">Virtual health</a>
+       <a href="case-study-custom-service-listings.html" class="topnav-line header-style">Health services listings</a>
+       <a href="case-study-ccfd.html" class="topnav-line header-style">Continuing Care Facility Directory</a>
+       <a href="case-study-translated-resources.html" class="topnav-line header-style">Translated resources</a>
   </div>
-<!-- Family doc check-in -->
-<h2 class="mt-5 mb-3">Continuing Care Facility Directory</h2>
-<h3 class="h3-subtitle h-navy mb-4">Functionality upgrade</h3>
-
+</span>
+      <a href="about.html"><span class="header-link">About</span></a> <a href="contact.html"><span class="header-link">Contact</span></a></h3>
+     <!-- Top Navigation Menu - Mobile -->
+     <div class="d-block d-lg-none">
+     <div id="menuLinks" style="float: center;">
+       <a href="index.html" >Portfolio</a>
+       <a href="case-study-family-doctor.html" class="topnav-line"><span class="topnav-indent">Family doctor check-in</span></a>
+       <a href="case-study-fit-for-work.html" class="topnav-line"><span class="topnav-indent">Fit for Work</span></a>
+       <a href="case-study-virtual-health.html" class="topnav-line"><span class="topnav-indent">Virtual health</span></a>
+       <a href="case-study-custom-service-listings.html" class="topnav-line"><span class="topnav-indent">Health services listings</span></a>
+       <a href="case-study-ccfd.html" class="topnav-line"><span class="topnav-indent">Continuing Care Facility Directory</span></a>
+       <a href="case-study-translated-resources.html" class="topnav-line"><span class="topnav-indent">Translated resources</span></a>
+       <a href="about.html" class="topnav-line">About</a>
+       <a href="contact.html" class="topnav-line">Contact</a>
+     </div>
+     <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+       <i class="fa fa-bars hamburger"></i>
+     </a>
+     </div> 
+   </div>
+  </div>
 </div>
+<!-- CCFD -->
+<h2 class="mt-5 mb-3">Continuing Care Facility Directory</h2>
+<h3 class="h3-subtitle h-navy mb-4">Original designs and upgraded functionality</h3>
+
+<!-- Summary -->
+<div class="row">
+  <div class="col-12">
+    <h3 class="mb-4">Summary</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+	<p></p>
+    <p class="centre-img" style="max-width: 700px;"><a href="assets/images/IMAGEGOESHERE.jpg" target="_blank"><img src="assets/images/img-mobile-responsive.jpg" alt="" class="img-responsive mb-2"></a></p>
+  </div>
+</div>
+<hr class="case-study-line">
+<!-- Background -->
+<div class="row">
+  <div class="col-12">
+    <h3 class="mb-4">Background</h3>
+  </div>
+</div>
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-5">
+      <h4>My role</h4>
+      <p>Design high-fidelity mockups for the Continuing Care Facility Directory (CCFD) user interface. Then expand the functionality to include updated branding, filters, and additional private facilities.</p>
+      <h4>Target users</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+	  </ul>
+    </div>
+    <div class="col-md-5">
+      <h4>Goal</h4>
+      <p>Provide a directory of continuing care facilities.</p>
+	  <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>	
+	</div>
+ </div>
+<hr class="case-study-line">
+</div>
+<script src="assets/js/back-to-top.js"></script>
+<script src="assets/js/drop-down-menu.js"></script>
 </body>
 </html>
