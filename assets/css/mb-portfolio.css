@@ -295,6 +295,13 @@ p {
   }
 }
 
+/* top navbar */
+#topnavbar {
+  position: sticky;
+  top: 0;
+  background: #03045E ;
+}
+
 /* Back to top */
 #back-to-top {
   display: none;
