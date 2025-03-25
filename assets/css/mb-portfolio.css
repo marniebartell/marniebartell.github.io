@@ -299,8 +299,8 @@ p {
 #back-to-top {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 70px;
+  right: 20px;
   z-index: 99;
   font-size: 15px;
   border: none;
@@ -431,31 +431,6 @@ p {
 
 .dropdown:hover .dropbtn {
   background-color: #FFFFFF;
-}
-
-/* Form */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 15px;
-  border: 1px solid #CCCCCC;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #608BAA;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #03045E;
 }
 
 /* Footer */
