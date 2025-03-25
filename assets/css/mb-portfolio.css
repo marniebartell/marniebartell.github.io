@@ -299,7 +299,8 @@ p {
 #topnavbar {
   position: sticky;
   top: 0;
-  background: #03045E ;
+  background: #03045E;
+  z-index: 100;
 }
 
 /* Back to top */
