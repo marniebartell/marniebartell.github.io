@@ -29,11 +29,12 @@ a:hover {
 
 /* Headings */
 .sticky-header {
-  top: 25px;
+  top: 26px;
   position: sticky !important;
   background-color: #FFFFFF;
   padding-bottom: 30px;
   padding-top: 30px;
+  margin-right: -8px;
   z-index: 10;
   box-shadow: 0px 1px #C0C0C0;
 }
