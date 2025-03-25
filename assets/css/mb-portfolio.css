@@ -29,7 +29,7 @@ a:hover {
 
 /* Headings */
 .sticky-header {
-  top: 0;
+  top: 25px;
   position: sticky !important;
   background-color: #FFFFFF;
   padding-bottom: 30px;
