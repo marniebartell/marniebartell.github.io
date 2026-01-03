@@ -233,7 +233,8 @@ p {
   box-shadow: 5px 5px 5px #CCCCCC;
 }
 
-.shadow {
+.shadow-100 {
+  max-width: 100%;
   box-shadow: 5px 5px 5px #CCCCCC;
 }
 
