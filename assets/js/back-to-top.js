@@ -17,3 +17,6 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// Update year
+  document.getElementById("currentYear").innerText = new Date().getFullYear();
